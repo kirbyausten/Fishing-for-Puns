@@ -12,6 +12,6 @@
     $result = mysqli_query($connection, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "The ID is: " . $row['number'] . " and the Username is: " . $row['dishname'];
+        echo "The ID is: " . $row['number'] . " and the dishname is: " . $row['dishname'];
     }
 
