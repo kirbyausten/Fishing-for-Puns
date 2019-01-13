@@ -26,5 +26,6 @@
             '</td> <td align = "left">' . $row[calories] .
             '</td> <td align = "left">' . $row[rating] .
             '</td></tr>'
+    echo '</table>'
     }
 
